@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="udemy.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <i class="fa-solid fa-house"></i>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobil"
+        >
+          <i class="navbar-toggler-icon"></i>
+        </button>
+        <div id="mobil" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Programs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!-- <div class="row">
+          <div class="col-8">
+            <input type="text" class="form-control me-1" />
+          </div>
+          <div class="col-4">
+            <button class="btn btn-warning">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div> -->
+
+          <form class="d-flex">
+            <input type="text" class="form-control me-1" placeholder="search" />
+            <button class="btn btn-warning">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="text-center pt-5 mt-5 px-4 border-bottom">
+        <h1 class="display-4 fw-bold">Never Give Up</h1>
+        <div class="col-lg-8 mx-auto">
+          <p class="lead mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+            facilis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Fugit, mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Deleniti, odit.
+          </p>
+          <div class="mb-5 d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-warning bt-lg">
+              <i class="fa-solid fa-caret-right"></i>Buton
+            </button>
+            <button class="btn btn-outline-secondary bt-lg">
+              <i class="fa-solid fa-caret-right"></i>Buton
+            </button>
+          </div>
+          <div class="owerflow-hidden">
+            <div class="container px-5">
+              <img
+                src="/assets/img/nature.jpg"
+                class="img-fluid border rounded-3 shadow-lg mb-4"
+                width="700"
+                height="500"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="bg-dark text-secondary px-5 py-5 text-center text-white">
+        <div class="py-5">
+          <h1 class="display-5 fw-bold">Asla Pes Etme</h1>
+          <div class="col-lg-8 mx-auto">
+            <p class="lead mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              facilis?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Fugit, mollitia. Lorem ipsum dolor sit amet consectetur,
+              adipisicing elit. Deleniti, odit.
+            </p>
+            <div class="mb-5 d-grid gap-2 d-md-flex justify-content-md-center">
+              <button class="btn btn-outline-warning bt-lg">
+                <i class="fa-solid fa-caret-right"></i>Buton
+              </button>
+              <button class="btn btn-outline-secondary bt-lg">
+                <i class="fa-solid fa-caret-right"></i>Buton
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container my-4">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/seyahat1.jpeg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/seyahat2.jpeg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/seyahat3.jpeg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider01.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider02.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="container my-4">
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"
+        >
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img
+                src="/assets/img/seyahat1.jpeg"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img
+                src="/assets/img/seyahat2.jpeg"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img
+                src="/assets/img/seyahat3.jpeg"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider01.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider02.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-3 shadow">
+              <img src="/assets/img/slider03.jpg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Doğa Manzarası</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+                  sint!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <span>All rights reserved. @2025</span>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
